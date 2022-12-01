@@ -1,0 +1,52 @@
+body {
+    background-color: yellow;
+}
+.header{
+    display: flex;
+    padding: 10px;
+
+}
+.header ul li{
+    list-style: none;
+    display: flex;
+    margin: 0 20px;
+}
+.header ul li a{
+    color: white;
+    text-transform: uppercase;
+}
+.rrr {
+    background: url('Lovepik_com-400260196-a-girl-bent-to-pick-up-something.png');
+    background-size: cover;
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    margin-left: 700px;
+    margin-top: 100px;
+}
+.ccc {
+    height: 200px;
+    width: 300px;
+    background: url('pngwing.com.png');
+    background-size: cover;
+    position: absolute;
+    animation: ccc 5s linear 0s infinite;
+}
+.ccc h1{
+    font-size: 30px;
+    text-align: justify;
+    color: black;
+}
+@keyframes ccc{
+    0%{
+        top: 300px;
+        left: -650px;
+    }
+    50%{
+        top:200px;
+        left:0px;}
+    100%{
+        top: 200px;
+        left: -650px;
+    }
+}

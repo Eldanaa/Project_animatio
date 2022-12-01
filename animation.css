@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: hotpink
+}
+.header{
+    display: flex;
+    padding: 10px;
+
+}
+.header ul li{
+    list-style: none;
+    display: flex;
+    margin: 0 20px;
+}
+.header ul li a{
+    color: white;
+    text-transform: uppercase;
+}
+h2{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    position: absolute;
+    animation: square 8s linear 0s infinite;
+
+}
+@keyframes square{
+    0%{
+       top: 0px;
+       left: 0px;
+    background-color: lawngreen;}
+   100%{
+       top:120px;
+       left:1000px;
+    background-color: lightcoral;}
+}
+h1{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 187, 0);
+    position: relative;
+    animation-name: square2;
+    animation-duration: 3s;
+    margin-top: 5px;
+    animation: square2 8s linear 0s infinite;
+}
+@keyframes square2{
+    0%{
+        top: 0px;
+        left: 0px;
+        background-color: rgb(252, 0, 0);}
+        100%{
+         top: 50px;
+         left: 500px;
+          background-color: rgb(148, 128, 240);}
+}
